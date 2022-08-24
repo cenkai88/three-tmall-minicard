@@ -1,0 +1,5 @@
+<view class="page">
+  <canvas class="canvas" id="gl" type="webgl"  onReady="canvasOnReady"  onTouchStart="onTouchStart" disable-scroll="true" onTouchMove="onTouchMove" onTouchEnd="onTouchEnd"></canvas>
+  <view class="btn1" id="1" onTap="change" >CNY_JACKET</view>
+  <view class="btn2" id="2" onTap="change" >HOODIE</view>
+</view>
